@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-
 	"github.com/spf13/viper"
 )
 
@@ -41,7 +40,7 @@ func ReadConf() {
 	viper.SetConfigType("yml")
 
 	// ファイルパスの設定
-	viper.AddConfigPath(filepath.Join("$GOPATH", "src", "github.com", "yoshinorihisakawa", "sample-api-hoop", "conf"))
+	viper.AddConfigPath(filepath.Join("$GOPATH", "src", "github.com", "one-connect", "biz-chance-api", "conf"))
 
 	// 環境変数から設定値を上書きできるように設定
 	viper.AutomaticEnv()

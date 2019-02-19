@@ -1,9 +1,9 @@
 database:
     host: "127.0.0.1"
-    port: "63306"
+    port: "3306"
     user: "root"
-    password: "password"
-    dbname: "sample"
+    password: "root"
+    dbname: "biz-chance"
 
 server:
     address: "1323"
